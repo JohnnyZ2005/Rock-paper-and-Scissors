@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper and Scissors game</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -19,31 +19,33 @@
             <div class="show-result">
                 <div class="player-score design">
                     <h3>You</h3>
-                    <span class="score-change">0</span>
+                    <span class="score-change score-change-1">0</span>
                 </div>
                 <div class="computer-score design">
                     <h3>Computer</h3>
-                    <span class="score-change">0</span>
+                    <span class="score-change score-change-2">0</span>
                 </div>
             </div>
         </div>
         <div id="show-winner">
             <h2 class="show-winner-2"> Lets play!!!</h2>
+            <h1 id="moves"></h1>
         </div>
         <div id="game-elements">
             <div id="rock" class="design-2">
-                <button><img src="images/rock.png" alt=""></button>
+                <button class="rock-button">rock</button>
             </div>
             <div id="paper" class="design-2">
-                <button><img src="images/paper.png" alt=""></button>
+                <button class="paper-button">paper</button>
             </div>
             <div id="scissors " class="design-2">
-                <button><img src="images/scissors.png" alt=""></button>
+                <button class="scissors-button">scissors</button>
             </div>
         </div>
         <div class="footer">
-            <h5>Copywrite  &#169 Ayomide</h5>
+            <button class ="reset-button">Reset</button>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
